@@ -10,8 +10,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition
 public class SwaggerConfig {
+
+    @Bean
     public OpenAPI apiInfo() {
-        return new OpenAPI().info(new Info().title("ETIQA_TEST-API-DOC").version("1.0.0-SNAPSHOT"));
+        return new OpenAPI().info(new Info().title("ETIQA_TEST-API-DOC").version("1.0.0-SNAPSHOT").description("REST API for a managing Customers and Products."));
     }
     @Bean
     public GroupedOpenApi httpApi() {

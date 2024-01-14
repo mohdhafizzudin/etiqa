@@ -69,7 +69,7 @@ public class ErrorHandler {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ExceptionHandler(value = Exception.class)
     public Object handleException(Exception exception, HttpServletRequest request) {
-        log.info("");
+        log.info("Exception.handleException");
         log.error("", exception);
         return ApiResponse.exception(exception);
     }

@@ -72,7 +72,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Usage
 
-Please refer [Swagger](http://localhost:8080/swagger-ui/index.html#/) for details.
+Please refer [Swagger](http://localhost:8080/swagger-ui/index.html#/) and [API Doc](http://localhost:8080/v3/api-docs/http) for API usage details.
 
 ## Development
 
