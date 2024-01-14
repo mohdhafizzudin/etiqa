@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # Etiqa Technical Assessment by Hafizzudin
 
 [![Java Version](https://img.shields.io/badge/java-17-green.svg)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
@@ -15,6 +20,7 @@ Spring Boot Application that to provides API Endpoints to manage Customers and P
 - [Usage](#usage)
 - [Development](#development)
 - [Swagger](#swagger)
+- [Testing](#testing)
 
 ## Features
 
@@ -61,6 +67,9 @@ These instructions will get you a copy of the project up and running on your loc
     java -jar target/your-artifact-id.jar
     ```
 
+4. Run create_db.sql to create database
+5. For test data, insert data using customer_data_test, product_data_test
+
 ## Usage
 
 Please refer [Swagger](http://localhost:8080/swagger-ui/index.html#/) for details.
@@ -77,8 +86,11 @@ The code can be divided into Controller, Servive, Repository, Config, Util, Prop
 
 The code also include customize response and specification for easy usage.
 
-
 ## Swagger
 
 Open API can be asses through the URL
 http://localhost:8080/swagger-ui/index.html#/
+
+## Testing
+
+You may use the provided collection file ("Etiqa.postman_collection.json") and import into Postman to perform testing.
